@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>uou_logo.png</file>
+    <file>KakaoTalk_20230528_062922165.png</file>
+    <file>KakaoTalk_20230528_062922165_01.png</file>
+  </qresource>
+</RCC>

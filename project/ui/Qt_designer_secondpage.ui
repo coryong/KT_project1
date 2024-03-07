@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1180</width>
+    <height>1105</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+</string>
+  </property>
+  <widget class="QLabel" name="image_label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>1000</width>
+     <height>750</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1000</width>
+     <height>750</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>맑은 고딕</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="finish_button">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>930</y>
+     <width>931</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #006400	;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 20px;
+}
+        
+QPushButton:hover {
+	background-color: #45a049;
+}
+        
+QPushButton:pressed {
+	background-color: #3e8e41;
+}
+
+QPushButton:disabled {
+	background-color: #CCCCCC;
+	color: #999999;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 20px
+}
+</string>
+   </property>
+   <property name="text">
+    <string>시험종료</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="timer_label">
+   <property name="geometry">
+    <rect>
+     <x>315</x>
+     <y>842</y>
+     <width>721</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>440</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>맑은 고딕</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #eee;
+border: none;
+padding: 12px 18px;
+margin: 0px 0;
+width: 100%;
+border-radius: 15px;</string>
+   </property>
+   <property name="text">
+    <string>제한 시간 : 2시간</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_button">
+   <property name="geometry">
+    <rect>
+     <x>92</x>
+     <y>842</y>
+     <width>200</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #32cd32;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 17px 20px;
+}
+        
+QPushButton:hover {
+	background-color: #45a049;
+}
+        
+QPushButton:pressed {
+	background-color: #3e8e41;
+}
+
+QPushButton:disabled {
+	background-color: #CCCCCC;
+	color: #999999;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 17px 20px
+}
+</string>
+   </property>
+   <property name="text">
+    <string>시험 시작</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

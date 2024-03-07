@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>1272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>81</y>
+     <width>802</width>
+     <height>1147</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_logo">
+      <property name="minimumSize">
+       <size>
+        <width>800</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>맑은 고딕</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#comboBox {
+	border: none;
+	background-color: #eee;
+	padding: 15px 10px;
+	margin: 0px 0;
+	width: 100%;
+	border-radius: 15px;
+}
+
+#comboBox::drop-down{
+	border:0px;
+}
+
+#comboBox::down-arrow{ 
+	image: url(:/newPrefix/KakaoTalk_20230528_062922165_01.png);
+	width: 12px;
+	height: 12px;
+	margin-right:15px;
+}
+
+#comboBox:on{
+	border: 4px solid #c2dbfe;
+}
+
+#comboBox QListView{
+	font-size: 12px;
+	border: 1px solid rgba(0, 0, 0, 10%);
+	padding: 5px;
+	background-color: #fff;
+	outline: 0px;
+}
+
+#comboBox QListView::item{
+	padding-left: 10px;
+	background-color: #fff;
+}
+
+#comboBox QListView::item:hover{
+	background-color: #1e90ff;
+}
+
+#comboBox QListView::item:selected{
+	background-color: #1e90ff;
+}</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>캡스톤디자인</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>영상정보처리</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>알고리즘</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>인공지능</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>파이썬</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: #eee;
+border: none;
+padding: 15px 10px;
+margin: 0px 0;
+width: 100%;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>학번</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="font">
+           <font>
+            <family>맑은 고딕</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: #eee;
+border: none;
+padding: 15px 10px;
+margin: 0px 0;
+width: 100%;
+border-radius: 15px;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>이름</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="topMargin">
+         <number>20</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="btn_1">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: #32cd32;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 20px;
+}
+        
+QPushButton:hover {
+	background-color: #45a049;
+}
+        
+QPushButton:pressed {
+	background-color: #3e8e41;
+}
+
+QPushButton:disabled {
+	background-color: #CCCCCC;
+	color: #999999;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 20px
+}
+</string>
+          </property>
+          <property name="text">
+           <string>로그인</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_2">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>-1</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+        
+
+QPushButton:enabled {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 20px;
+}
+
+QPushButton:disabled{
+	background-color: #CCCCCC;
+	color: #999999;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none;
+	padding: 12px 20px;
+}
+
+QPushButton:hover {
+	background-color: #45a049;
+}
+        
+QPushButton:pressed {
+	background-color: #3e8e41;
+}</string>
+          </property>
+          <property name="text">
+           <string>얼굴 인식</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
